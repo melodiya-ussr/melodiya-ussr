@@ -1,0 +1,113 @@
+body{
+    margin: 0; 
+    font-family: system-ui, -apple-system,  'Segoe UI';
+    background-color: rgba(0, 0, 0, 0.679);
+}
+header{
+    height: 770px;
+    width:100%
+}
+main{
+    height: 2500px;
+    width:100%
+}
+#headerUI{
+    
+    height: 70px;
+    background-color: rgb(255, 255, 255);
+    display: grid;
+    grid-template-columns: 20% 20% 20% 20% 20%;
+    list-style: none;
+    font-size: 22px;
+}
+#headerLogo{
+    
+    position: absolute;
+    left: 60px;
+}
+.headerImg{
+    background-image: url(image/1452346710171932031.jpg);
+    color: whitesmoke;
+    font-size: xx-large;
+    width: 100%;
+    height: 700px;
+    background-size: 100%;
+}
+.photo{
+    background-color: black;
+    
+    font-size: 40px;
+    color: rgb(165, 165, 165);
+}
+
+.mainTextAndImg>div{
+    color: white;
+    background-color: rgb(22, 22, 22); 
+    width: 700px;
+    margin: 10px;
+    height: 700px;
+}
+.mainTextAndImg{
+    display: flex;
+    Justify-content: space-around;
+    flex-wrap: wrap;
+    width: 100%;
+    
+}
+.mainTextAndImg1{
+    display: flex;
+    Justify-content: space-around;
+    flex-wrap: wrap;
+    width: 100%;
+    height: 1600px;
+}
+.mainTextAndImg2{
+    display: flex;
+    Justify-content: space-around;
+    flex-wrap: wrap;
+    width: 100%;
+    height: 1600px;
+}
+.mainTextAndImg3{
+    display: flex;
+    Justify-content: space-around;
+    flex-wrap: wrap;
+    width: 100%;
+    height: 1600px;
+}
+.mainTextAndImg4{
+    display: flex;
+    Justify-content: space-around;
+    flex-wrap: wrap;
+    width: 100%;
+    height: 1600px;
+}
+.mainTextAndImg5{
+    display: flex;
+    Justify-content: space-around;
+    flex-wrap: wrap;
+    width: 100%;
+    height: 1600px;
+}
+.mainTextAndImg6{
+    display: flex;
+    Justify-content: space-around;
+    flex-wrap: wrap;
+    width: 100%;
+    height: 1600px;
+}
+footer{
+width: 100%;
+height: 200px;
+background-color: black;
+color: white;
+}
+@media(max-width: 1447px){
+    .mainTextAndImg, .photo{
+        margin: 0;
+    }
+    .mainTextAndImg>div{
+        width: 500px;
+        height: 500px;
+    }
+}
